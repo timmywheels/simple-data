@@ -6,7 +6,7 @@ require('./Form');
 const app = express();
 
 const Form = mongoose.model('forms');
-const db = 'mongodb+srv://USERNAME:PASSWORD@simple-data-i4sv5.mongodb.net/test?retryWrites=true&w=majority';
+const db = 'mongodb+srv://simple-data:SimpleData2019!!@simple-data-i4sv5.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.connect(db, { useNewUrlParser: true }, (err, db) => {
     if (db) {
